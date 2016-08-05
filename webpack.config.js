@@ -2,11 +2,11 @@ var webpack = require('webpack');
 module.exports = {
   // entry:['./test/entry.js'],
   entry:{
-    bundle:'./test/entry.jsx'
+    bundle:'./blog.jsx'
   },
   output: {
-    path: __dirname + '/assets/test/',
-    publicPath: "/assets/test/",
+    path: __dirname + '/assets/blog/',
+    publicPath: "/assets/blog/",
     filename: 'bundle.js'
   },
   resolve: {
